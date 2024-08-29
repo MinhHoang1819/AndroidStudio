@@ -53,7 +53,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <Button
@@ -70,4 +70,23 @@
             android:layout_weight="1"
             android:text="(/) Variable Listener" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity As Listener" />
+
+    <Button
+        android:id="@+id/btnThoat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Explicit Class Listener" />
+
+    <Button
+        android:id="@+id/btnDoiManHinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="xuLyDoiManHinh"
+        android:text="Doi Man Hinh" />
 </LinearLayout>
