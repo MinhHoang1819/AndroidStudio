@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ban thich hoc cac mon hoc nao cua he thong"
+        android:textColor="#DB1717"
+        android:textSize="18dp" />
+
+    <CheckBox
+        android:id="@+id/chkAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LapTrinhAndroid" />
+
+    <CheckBox
+        android:id="@+id/chkWindowsPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LapTrinhWindowsPhone" />
+
+    <CheckBox
+        android:id="@+id/chkIOS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LapTrinhIOS" />
+
+    <Button
+        android:id="@+id/btnChon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chon mon hoc" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2CDB30"
+        android:text="Cac mon ban chon la:"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/txtMonHoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hien thi cac mon hoc"
+        android:textSize="18dp" />
+</LinearLayout>
