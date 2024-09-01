@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Moi ban danh gia he thong hoc"
+        android:textColor="#E42121"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radRatTuyetVoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rat tuyet voi" />
+
+        <RadioButton
+            android:id="@+id/radTuyetVoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tuyet voi" />
+
+        <RadioButton
+            android:id="@+id/radTamChapNhan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tam chap nhan" />
+
+        <RadioButton
+            android:id="@+id/radKhongTotLam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Khong tot lam" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnBinhChon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Binh chon" />
+</LinearLayout>
