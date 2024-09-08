@@ -45,7 +45,7 @@ public class AdapterDanhBa extends ArrayAdapter<DanhBa> {
         ImageButton btnSMS = row.<ImageButton>findViewById(R.id.btnSMS);
         ImageButton btnDetail = row.<ImageButton>findViewById(R.id.btnDetail);
 
-        //Tra ve danh ba muon ve
+        //Tra ve danh ba hien tai muon ve
         DanhBa danhBa = this.objects.get(position);
         txtTen.setText(danhBa.getTen());
         txtPhone.setText(danhBa.getPhone());
