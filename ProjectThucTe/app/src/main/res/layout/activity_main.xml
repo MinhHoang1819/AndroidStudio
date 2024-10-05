@@ -13,6 +13,7 @@
     tools:context=".MainActivity">
 
     <TabHost
+        android:id="@+id/tabHost"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
